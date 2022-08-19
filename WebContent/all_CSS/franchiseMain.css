@@ -1,0 +1,38 @@
+body{
+	width:1000px;
+	margin:auto;
+}
+#header {
+	width:100%;
+	heigth:150px;
+}
+#loginMenu {
+	width:100%;
+}
+.loginMenu ul{
+	margin-top:100px;
+	padding:0px;
+}
+.loginMenu ul li{
+	list-style-type:none;
+	flex-direction:col;
+}
+.login{
+	margin-top:5px;
+	width:170px;
+	height:30px;
+	padding:5px;
+	border:0.5px solid black;
+	border-radius:10px;
+	text-align:center;
+	color:white;
+	background: -webkit-gradient(linear, left top, left bottom, from(#848484), to(#848484), color-stop(0.6,black));
+}
+
+#teamname{
+	width:1000px;
+	margin-top:400px;
+	text-align:center;
+	font-size:13px;
+	background-color:#eeeeee;
+}

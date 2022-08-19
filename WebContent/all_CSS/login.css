@@ -1,0 +1,68 @@
+body{
+	width:1000px;
+	margin:auto;
+}
+#header {
+	width:100%;
+	heigth:150px;
+}
+#login {
+	width:300px;
+	margin:auto;
+	display:flex;
+}
+.login ul{
+	margin-top:100px;
+	padding:0px;
+}
+.login ul li{
+	list-style-type:none;
+	flex-direction:col;
+	margin:10px;
+}
+
+.login ol{
+	margin-top:5px;
+	padding:0px;
+}
+
+.login ol li{
+	list-style-type:none;
+	margin:10px;
+}
+
+.loginSubmit{
+	margin-top:5px;
+	width:120px;
+	height:30px;
+	padding:5px;
+	border:0.5px solid black;
+	border-radius:10px;
+	text-align:center;
+	color:white;
+	background-color:#79ABFF;
+}
+.signInSubmit{
+	margin-top:5px;
+	width:120px;
+	height:30px;
+	padding:5px;
+	border:0.5px solid black;
+	border-radius:10px;
+	text-align:center;
+	color:white;
+	background-color:#79ABFF;
+	flex-direction:unset;
+}
+
+h1{
+	text-align:center;
+}
+
+#teamname{
+	width:1000px;
+	margin-top:400px;
+	text-align:center;
+	font-size:13px;
+	background-color:#eeeeee;
+}
